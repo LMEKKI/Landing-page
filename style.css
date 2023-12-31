@@ -1,3 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
 .header {
   background-color: #1f2937;
   display: flex;
@@ -28,4 +36,114 @@ a {
 .logo p {
   color: #f9faf8;
   font-size: 24px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-around;
+  margin: 88px;
+}
+
+.leftCard h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.leftCard p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  background: #3882f6;
+  color: #e5e7eb;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 30px;
+  border-radius: 8px;
+  border-color: #fcfdff00;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Content h2 {
+  font-size: 24px;
+}
+
+.imgContent {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+.imgContent .img img {
+  border-radius: 15px;
+  border: 2.8px solid #3882f6;
+}
+
+.imgContent p {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text p {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.contentText h3 {
+  align-self: center;
+  margin-left: 625px;
+  margin-top: -50px;
+}
+
+.bottomContaint {
+  background: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin: 100px;
+  border-radius: 15px;
+}
+
+#bottombtn {
+  background: #3882f6;
+  color: #e5e7eb;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 30px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.bottomContaint p {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
